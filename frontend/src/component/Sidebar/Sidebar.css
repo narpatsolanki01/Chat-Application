@@ -1,0 +1,57 @@
+.sidebar_scroll{
+    overflow:auto;
+    height:85.3vh;
+    margin: 0px;
+}
+.sidebar_scroll::-webkit-scrollbar{
+    width: 2px;
+    height: 10px;
+}
+.sidebar_scroll::-webkit-scrollbar-thumb{
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+.sidebar_scroll::-webkit-scrollbar-track{
+    background-color: #2A2D2E;
+    box-shadow: inset 0 0 5px grey; 
+    /* border: 1px solid #aaa; */
+}
+.sidebar_scroll::-webkit-scrollbar-thumb:vertical{
+    height: 0px;
+}
+hr{
+    margin: 0px;
+}
+.chats{
+    height: 100%;
+}
+.massage_box{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 84vh;
+    background-color:"#515151";
+}
+.massage_box::-webkit-scrollbar{
+    width: 3px;
+}
+.massage_box::-webkit-scrollbar-thumb{
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+.massage_box::-webkit-scrollbar-track{
+    background-color: #2A2D2E;
+    box-shadow: inset 0 0 5px grey; 
+    /* border: 1px solid #aaa; */
+}
+.massage_box::-webkit-scrollbar-thumb:vertical{
+    height: 0px;
+}
+.left{
+    justify-content: start;
+  
+}
+.right{
+    justify-content: end;
+  
+}
